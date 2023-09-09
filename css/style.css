@@ -337,15 +337,17 @@ body {
 /* Footer end */
 
 /* Adaptive start */
-@media (max-width:420px) {
+@media (max-width:500px) {
     .main_wrapper {
-        max-width: 320px;
+        max-width: 345px;
     }
 
 
     /* Header start */
     .header {
         font-size: 16px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
     
     /* Header end */
@@ -353,17 +355,112 @@ body {
     /* Intro start */
     .intro {
         min-height: 200px;
+
+        padding-top: 100px;
+        padding-bottom: 200px;
     }
 
     .intro_title {
-        font-size: 16px;
+        font-size: 23px;
+        margin-bottom: 5px;
     }
 
     .intro_description {
-        font-size: 12px;
+        font-size: 19px;
     }
 
     /* Intro end */
+
+    /* Characters start */
+    .characters {
+        transform: translateY(-35px);
+        
+        margin-bottom: 100px;
+    }
+
+    .characters_wrapper {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .characters_title {
+        font-size: 25px;
+
+        margin-bottom: 40px;
+    }
+
+    .character_card {
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        margin-bottom: 50px;
+    }
+
+    .character_text_block {
+        padding: 0;
+        /* text-align: center; */
+    }
+
+    .character_title {
+        font-size: 20px;
+    }
+
+    .character_description {
+        font-size: 17px;
+    }
+
+    .character_pic {
+        max-width: 140px;
+        
+        margin-bottom: 15px;
+    }
+
+    /* Characters end */
+
+    /* Plot start */
+    .plot {
+        margin-bottom: 40px;
+    }
+
+    .plot_cards {
+        position: static;
+    }
+
+    .plot_card {
+        display: block;
+    }
+
+    .plot_pic_block {
+        display: none;
+    }
+
+    .plot_title {
+        font-size: 23px;
+
+        margin-bottom: 10px;
+    }
+
+    .plot_text_block {
+        text-indent: 25px;
+
+        max-width: 345px;
+        margin: 0 auto;
+
+        padding: 0;
+
+        font-size: 17px;
+    }
+
+    .right_wrapper {
+        margin: 0;
+    }
+
+    .left_wrapper {
+        margin: 0;
+    }
+
+    /* Plot end */
 }
 
 /* Adaptive end */
